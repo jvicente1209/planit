@@ -68,6 +68,11 @@ public class SampleTestcase extends PageObjectConnector {
 		act.clickElement(Locators.HOME_TAB);
 	}
 
+	/**
+	 * Buy 2 Stuffed Frog, 5 Fluffy Bunny, 3 Valentine Bear, Go to the cart page
+	 * Verify the subtotal for each product is correct, Verify the price for each
+	 * product Verify that total = sum(sub totals)
+	 */
 	@Test
 	public void testCase3() {
 		Actions.log.info("testCase3");
