@@ -12,7 +12,7 @@ public class SampleTestcase extends PageObjectConnector {
 	 * From the home page, go to contact page, click submit button, verify error
 	 * messages, populate mandatory fields, validate errors are gone.
 	 */
-//	@Test
+	@Test
 	public void testCase1() {
 		Actions.log.info("testCase1");
 
@@ -46,7 +46,7 @@ public class SampleTestcase extends PageObjectConnector {
 	 * 
 	 * Run this test 5 times to ensure 100% pass rate
 	 */
-//	@Test(threadPoolSize = 1, invocationCount = 5)
+	@Test(threadPoolSize = 1, invocationCount = 5)
 	public void testCase2() {
 		Actions.log.info("testCase2");
 

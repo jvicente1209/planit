@@ -1,7 +1,7 @@
 package testproject;
 
 public class Locators {
-    public static final String CONTACT_TAB = "a[text()='Contact']";
+    public static final String CONTACT_TAB = "//a[text()='Contact']";
     public static final String HOME_TAB = "//a[text()='Home']";
     public static final String SHOP_TAB = "//a[text()='Shop']";
     public static final String CART_BTN = "//a[contains(text(), 'Cart')]";

@@ -33,9 +33,9 @@ public class Actions {
 
 	public static void launchBrowser() {
 		driver = new ChromeDriver();
-		wait = new WebDriverWait(driver, Duration.ofSeconds(30));
+		wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		log.info("Launching: {}", URL);
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.get(URL);
 
 	}
